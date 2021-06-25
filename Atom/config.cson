@@ -1,0 +1,44 @@
+"*":
+  core:
+    audioBeep: false
+    disabledPackages: [
+      "language-gfm"
+    ]
+    telemetryConsent: "limited"
+    titleBar: "hidden"
+  editor:
+    fontFamily: "Monaco, Noto Sans CJK SC, Menlo, Consolas, DejaVu Sans Mono, monospace"
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "ae1e5871-f9a5-4fdc-b464-6516793c3b80"
+  "highlight-selected":
+    highlightBackground: true
+    lightTheme: true
+    maximumHighlights: 100
+    timeout: 5
+  "linter-gcc":
+    gccDefaultCFlags: "-c -Wall -o /dev/null -std=c11 -fsyntax-only"
+    gccDefaultCppFlags: "-c -Wall -std=c++11 -o /dev/null -fsyntax-only"
+    gccIncludePaths: " /usr/include/gtk-4.0/"
+  "linter-ui-default": {}
+  minimap:
+    absoluteMode: true
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  welcome:
+    showOnStartup: false
+".basic.html.text":
+  editor:
+    tabLength: 2
+".c.source":
+  editor:
+    tabLength: 8
+    tabType: "soft"
+".html.js.text":
+  editor:
+    tabLength: 2
+".js.source":
+  editor:
+    tabLength: 2
